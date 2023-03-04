@@ -19,7 +19,7 @@ class DataConstants:
     CARD_DATA = [0x00]*16
 
     REQUEST_AUTH_KEY = b'\x02\x00\x09\x35\x32\x00\x37\x21\x53\x6a\x72\x40\x03\x12' # (key = 37 21 53 6a 72 40)
-    REQUEST_AUTH_CYCLON = b'\x02\x00\t52\x00retsam\x03\x13' # (key = 114, 101, 116, 115, 97, 109, 0)
+    REQUEST_AUTH_CYCLON = b'\x02\x00\t52\x00retsam\x03\x13' # (key = 72 65 74 73 61 6D)
     REQUEST_CARD_INSERTED = b'\x02\x00\x02\x31\x30\x03\x02'
     REQUEST_FIND_CARD = b'\x02\x00\x02\x35\x30\x03\x06'
     REQUEST_EJECT_CARD = b'\x02\x00\x02\x32\x30\x03\x01'
